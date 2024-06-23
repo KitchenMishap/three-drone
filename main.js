@@ -7,9 +7,9 @@ import { Sky } from 'three/addons/objects/Sky.js';
 
 const scene = new THREE.Scene();
 
-const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+const camera = new THREE.PerspectiveCamera( 35, window.innerWidth / window.innerHeight, 0.1, 1000 );
 camera.position.z = 30;
-camera.position.y = -100;
+camera.position.y = -200;
 camera.quaternion.setFromAxisAngle(new THREE.Vector3(1,0,0), Math.PI/2);
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize( window.innerWidth, window.innerHeight );
@@ -19,8 +19,8 @@ document.body.appendChild( renderer.domElement );
 const texture = new THREE.TextureLoader().load( "textures/chess.jpg" );
 texture.wrapS = THREE.RepeatWrapping;
 texture.wrapT = THREE.RepeatWrapping;
-texture.repeat.set( 1, 1 );
-const planeGeom = new THREE.PlaneGeometry( 1000, 1000 );
+texture.repeat.set( 10, 10 );
+const planeGeom = new THREE.PlaneGeometry( 10000, 10000 );
 const planeMat = new THREE.MeshLambertMaterial( {color: 0x88ff88, side: THREE.FrontSide} );
 planeMat.bumpMap = texture;
 const plane = new THREE.Mesh( planeGeom, planeMat );
@@ -37,10 +37,9 @@ scene.add( cube );
 // Sky
 const sky = new Sky();
 sky.scale.setScalar( 450000 );
-const phi = Math.PI/2;
-const theta = Math.PI;
-const sunPosition = new THREE.Vector3().setFromSphericalCoords( 1, phi, theta );
+const sunPosition = new THREE.Vector3(1,0,0 );
 sky.material.uniforms.sunPosition.value = sunPosition;
+sky.material.uniforms.up.value = new THREE.Vector3(0,0,1);
 scene.add( sky );
 
 const light = new THREE.AmbientLight( 0x404040 ); // soft white light
