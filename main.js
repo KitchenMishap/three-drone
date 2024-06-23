@@ -82,11 +82,17 @@ window.onmousemove = function(event) {
     mouseScaledY = relY / (sizeY/2);
 }
 
-var bank = 0
+var bank = 0;
+var dive = 0;
 function moveCamera() {
-    var targetBank = mouseScaledX * 0.5;
+    var targetBank = -mouseScaledX * 0.5;
     var bankSpeed = targetBank - bank;
     bank += bankSpeed * 0.1;
     camera.rotation.z = bank;
-    camera.rotation.y -= targetBank * 0.1;
+    camera.rotation.y += targetBank * 0.04;
+
+    var targetDive = -mouseScaledY * 0.5;
+    var diveSpeed = targetDive - dive;
+    dive += diveSpeed * 0.1;
+    camera.rotation.x = dive + Math.PI/2;
 }
