@@ -1,6 +1,7 @@
 import * as THREE from 'three';
 
 import WebGL from 'three/addons/capabilities/WebGL.js';
+import { Sky } from 'three/addons/objects/Sky.js';
 
 const scene = new THREE.Scene();
 
@@ -24,6 +25,15 @@ const material = new THREE.MeshLambertMaterial( { color: 0xffffff } );
 const cube = new THREE.Mesh( geometry, material );
 cube.position.z = 2
 scene.add( cube );
+
+// Sky
+const sky = new Sky();
+sky.scale.setScalar( 450000 );
+const phi = Math.PI/2;
+const theta = Math.PI;
+const sunPosition = new THREE.Vector3().setFromSphericalCoords( 1, phi, theta );
+sky.material.uniforms.sunPosition.value = sunPosition;
+scene.add( sky );
 
 const light = new THREE.AmbientLight( 0x404040 ); // soft white light
 scene.add( light );
