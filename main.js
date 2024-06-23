@@ -3,15 +3,26 @@ import * as THREE from 'three';
 import WebGL from 'three/addons/capabilities/WebGL.js';
 
 const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
 
+const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+camera.position.z = 3;
+camera.position.y = -10;
+camera.quaternion.setFromAxisAngle(new THREE.Vector3(1,0,0), Math.PI/2);
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize( window.innerWidth, window.innerHeight );
 document.body.appendChild( renderer.domElement );
 
+// Green Floor
+const planeGeom = new THREE.PlaneGeometry( 1000, 1000 );
+const planeMat = new THREE.MeshLambertMaterial( {color: 0x00ff00, side: THREE.FrontSide} );
+const plane = new THREE.Mesh( planeGeom, planeMat );
+scene.add( plane );
+
+// Cube
 const geometry = new THREE.BoxGeometry( 1, 1, 1 );
 const material = new THREE.MeshLambertMaterial( { color: 0xffffff } );
 const cube = new THREE.Mesh( geometry, material );
+cube.position.z = 2
 scene.add( cube );
 
 const light = new THREE.AmbientLight( 0x404040 ); // soft white light
@@ -28,8 +39,6 @@ scene.add( directionalLightGreen );
 var directionalLightBlue = new THREE.DirectionalLight( 0x0000ff, 0.5 );
 directionalLightBlue.position.set( -1000,-1000,1000 );
 scene.add( directionalLightBlue );
-
-camera.position.z = 5;
 
 if ( WebGL.isWebGLAvailable() ) {
     renderer.setAnimationLoop( animate );
