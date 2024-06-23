@@ -1,5 +1,7 @@
 import * as THREE from 'three';
 
+// Y is UP
+
 import WebGL from 'three/addons/capabilities/WebGL.js';
 import { Sky } from 'three/addons/objects/Sky.js';
 
@@ -66,5 +68,26 @@ if ( WebGL.isWebGLAvailable() ) {
 function animate() {
     cube.rotation.x += 0.01;
     cube.rotation.y += 0.01;
+    moveCamera();
     renderer.render( scene, camera );
+}
+
+var mouseScaledX = 0;
+var mouseScaledY = 0;
+window.onmousemove = function(event) {
+    var sizeX = window.innerWidth;
+    var sizeY = window.innerHeight;
+    var relX = event.clientX - sizeX/2;
+    var relY = event.clientY - sizeY/2;
+    mouseScaledX = relX / (sizeX/2);
+    mouseScaledY = relY / (sizeY/2);
+}
+
+var bank = 0
+function moveCamera() {
+    var targetBank = mouseScaledX * 0.5;
+    var bankSpeed = targetBank - bank;
+    bank += bankSpeed * 0.1;
+    camera.rotation.z = bank;
+    camera.rotation.y -= targetBank * 0.1;
 }
