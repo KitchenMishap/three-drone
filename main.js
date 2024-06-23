@@ -5,10 +5,12 @@ import * as THREE from 'three';
 import WebGL from 'three/addons/capabilities/WebGL.js';
 import { Sky } from 'three/addons/objects/Sky.js';
 
+import addJsonDataToScene from './renderspec.js'
+
 const scene = new THREE.Scene();
 
 // Camera
-const camera = new THREE.PerspectiveCamera( 35, window.innerWidth / window.innerHeight, 0.1, 1000000 );
+const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 10000000 );
 camera.position.z = 200;
 camera.position.y = 30;
 
@@ -62,6 +64,7 @@ directionalLightBlue.position.set( -1000,1000,1000 );
 scene.add( directionalLightBlue );
 
 if ( WebGL.isWebGLAvailable() ) {
+    addJsonDataToScene(scene);
     renderer.setAnimationLoop( animate );
 } else {
     const warning = WebGL.getWebGLErrorMessage();
