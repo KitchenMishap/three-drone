@@ -60,15 +60,15 @@ function applyTransform(transformSoFar, transform) {
     if( transform.name=="ScaleX" )
         transformSoFar.scale.x *= transform.amount;
     if( transform.name=="ScaleY" )
-        transformSoFar.scale.z *= transform.amount;
-    if( transform.name=="ScaleZ" )
         transformSoFar.scale.y *= transform.amount;
+    if( transform.name=="ScaleZ" )
+        transformSoFar.scale.z *= transform.amount;
     if( transform.name=="TranslateX")
         transformSoFar.position.x += transform.amount;
     if( transform.name=="TranslateY")
-        transformSoFar.position.z += transform.amount;
-    if( transform.name=="TranslateZ")
         transformSoFar.position.y += transform.amount;
+    if( transform.name=="TranslateZ")
+        transformSoFar.position.z += transform.amount;
     if( transform.name=="RotateX") {
         var rot = new THREE.Quaternion;
         rot.setFromAxisAngle(new THREE.Vector3(1, 0, 0), transform.amount * Math.PI / 180);
@@ -78,13 +78,13 @@ function applyTransform(transformSoFar, transform) {
     // Y and Z are swapped due to difference between unreal and three.js
     if( transform.name=="RotateY") {
         var rot = new THREE.Quaternion;
-        rot.setFromAxisAngle(new THREE.Vector3(0, 0, 1), transform.amount * Math.PI / 180);
+        rot.setFromAxisAngle(new THREE.Vector3(0, 1, 0), transform.amount * Math.PI / 180);
         transformSoFar.rotation.premultiply(rot);
         transformSoFar.position.applyQuaternion(rot);
     }
     if( transform.name=="RotateZ") {
         var rot = new THREE.Quaternion;
-        rot.setFromAxisAngle(new THREE.Vector3(0, 1, 0), transform.amount * Math.PI / 180);
+        rot.setFromAxisAngle(new THREE.Vector3(0, 0, 1), transform.amount * Math.PI / 180);
         transformSoFar.rotation.premultiply(rot);
         transformSoFar.position.applyQuaternion(rot);
     }
