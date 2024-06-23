@@ -89,26 +89,40 @@ window.onmousemove = function(event) {
 
 var bank = 0;
 var dive = 0;
+var yaw = 0;
 function rotateCamera() {
     var targetBank = -mouseScaledX * 0.5;
     var bankSpeed = targetBank - bank;
     bank += bankSpeed * 0.1;
-    camera.rotation.z = bank;
-    camera.rotation.y += targetBank * 0.04;
 
-    var targetDive = -mouseScaledY * 0.5;
+    var targetDive = mouseScaledY * 0.2;
     var diveSpeed = targetDive - dive;
     dive += diveSpeed * 0.1;
-    camera.rotation.x = dive;
+
+    yaw += targetBank * 0.04;
+    if( yaw < 0 )
+        yaw += Math.PI * 2;
+    if( yaw > Math.PI * 2)
+        yaw -= Math.PI * 2;
+
+    var identityQuat = (new THREE.Quaternion).identity();
+    var bankQuat = (new THREE.Quaternion).setFromAxisAngle(new THREE.Vector3(0,0,1),bank);
+    var yawQuat = (new THREE.Quaternion).setFromAxisAngle(new THREE.Vector3(0,1,0),yaw);
+    var diveQuat = (new THREE.Quaternion).setFromAxisAngle(new THREE.Vector3(1,0,0),dive);
+
+    var bankDiveQuat = (new THREE.Quaternion).multiplyQuaternions(diveQuat, bankQuat);
+    var orientQuat = (new THREE.Quaternion).multiplyQuaternions(yawQuat, bankDiveQuat);
+
+    camera.setRotationFromQuaternion(orientQuat);
 }
 
 function moveCamera() {
-//    var xAxis = new THREE.Vector3();
-//    var yAxis = new THREE.Vector3();
-//    var zAxis = new THREE.Vector3();
-//    camera.normalMatrix.extractBasis(xAxis,yAxis,zAxis);
-//
-//    var moveForwardBack = -dive * 30;
-//    camera.position.x += yAxis.x * moveForwardBack;
-//    camera.position.y += yAxis.y * moveForwardBack;
+    var xAxis = new THREE.Vector3(0,0,0);
+    var yAxis = new THREE.Vector3(0,0,0);
+    var zAxis = new THREE.Vector3(0,0,0);
+    camera.matrixWorld.extractBasis(xAxis,yAxis,zAxis);
+
+    var moveForwardBack = dive * 10;
+    camera.position.x += zAxis.x * moveForwardBack;
+    camera.position.z += zAxis.z * moveForwardBack;
 }
