@@ -3,7 +3,7 @@ import * as THREE from 'three';
 export default addJsonDataToScene;
 
 function addJsonDataToScene(scene) {
-    fetch("renderspecs/renderspec100.json")
+    fetch("renderspecs/renderspec100MB.json")
         .then((res) => {
             if (!res.ok) {
                 throw new Error
@@ -31,7 +31,7 @@ function addAssets(scene, assets) {
         applyTransforms(sofar, assets[i].transform);
 
         //console.log(sofar.scale);
-        var mult = 1;
+        var mult = 0.01;
         const geometry = new THREE.BoxGeometry(mult * sofar.scale.x, mult * sofar.scale.y, mult * sofar.scale.z);
         var r = Math.floor(assets[i].asset.r * 255) * 65536;
         var g = Math.floor(assets[i].asset.g * 255) * 256;
@@ -39,10 +39,9 @@ function addAssets(scene, assets) {
         var col = r + g + b;
         const material = new THREE.MeshLambertMaterial({color: col});
         const cube = new THREE.Mesh(geometry, material);
-        sofar.rotation.normalize();
 
         cube.setRotationFromQuaternion(sofar.rotation);     // This DOESNT WORK
-        cube.position.set(sofar.position.x, sofar.position.y, sofar.position.z);
+        cube.position.set(mult * sofar.position.x, mult * sofar.position.y, mult * sofar.position.z);
 
         grp.add(cube);
     }
