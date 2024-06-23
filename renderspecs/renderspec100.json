@@ -1,0 +1,5770 @@
+[
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.054901960784313725,
+      "g": 0.24313725490196078,
+      "b": 0.13725490196078433,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 4.281762083834632
+      },
+      {
+        "name": "RotateY",
+        "amount": 9.473684210526315
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2290.779356783951
+      },
+      {
+        "name": "RotateZ",
+        "amount": 0.02612917356357875
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 3.006725784916921e-06
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.6078431372549019,
+      "g": 0.058823529411764705,
+      "b": 0.788235294117647,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 4.624056861655582
+      },
+      {
+        "name": "RotateY",
+        "amount": 28.421052631578945
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2290.9384148856034
+      },
+      {
+        "name": "RotateZ",
+        "amount": 0.07838752069073626
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 9.020177354750764e-06
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.6,
+      "g": 0.6196078431372549,
+      "b": 0.10980392156862745,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 4.9663516394765335
+      },
+      {
+        "name": "RotateY",
+        "amount": 47.368421052631575
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2291.097472987256
+      },
+      {
+        "name": "RotateZ",
+        "amount": 0.13064586781789378
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 1.5033628924584605e-05
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.8745098039215686,
+      "g": 0.16862745098039217,
+      "b": 0.023529411764705882,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 5.308646417297483
+      },
+      {
+        "name": "RotateY",
+        "amount": 66.3157894736842
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2291.2565310889095
+      },
+      {
+        "name": "RotateZ",
+        "amount": 0.18290421494505127
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 2.1047080494418446e-05
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.38823529411764707,
+      "g": 0.3215686274509804,
+      "b": 0.1568627450980392,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 5.650941195118433
+      },
+      {
+        "name": "RotateY",
+        "amount": 85.26315789473684
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2291.415589190562
+      },
+      {
+        "name": "RotateZ",
+        "amount": 0.23516256207220876
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 2.706053206425229e-05
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.12549019607843137,
+      "g": 0.1450980392156863,
+      "b": 0.10196078431372549,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 5.9932359729393845
+      },
+      {
+        "name": "RotateY",
+        "amount": 104.21052631578948
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2291.574647292215
+      },
+      {
+        "name": "RotateZ",
+        "amount": 0.2874209091993663
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 3.307398363408613e-05
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.5411764705882353,
+      "g": 0.6509803921568628,
+      "b": 0.45098039215686275,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.335530750760335
+      },
+      {
+        "name": "RotateY",
+        "amount": 123.15789473684211
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2291.733705393868
+      },
+      {
+        "name": "RotateZ",
+        "amount": 0.33967925632652385
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 3.9087435203919974e-05
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.6509803921568628,
+      "g": 0.9686274509803922,
+      "b": 0.9450980392156862,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.677825528581286
+      },
+      {
+        "name": "RotateY",
+        "amount": 142.10526315789474
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2291.8927634955207
+      },
+      {
+        "name": "RotateZ",
+        "amount": 0.39193760345368134
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 4.510088677375382e-05
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.01568627450980392,
+      "g": 0.21568627450980393,
+      "b": 0.803921568627451,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 7.020120306402236
+      },
+      {
+        "name": "RotateY",
+        "amount": 161.05263157894737
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2292.0518215971742
+      },
+      {
+        "name": "RotateZ",
+        "amount": 0.4441959505808388
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 5.1114338343587656e-05
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.8274509803921568,
+      "g": 0.6784313725490196,
+      "b": 0.2235294117647059,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 7.362415084223187
+      },
+      {
+        "name": "RotateY",
+        "amount": 180.0
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2292.210879698827
+      },
+      {
+        "name": "RotateZ",
+        "amount": 0.4964542977079963
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 5.71277899134215e-05
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.9725490196078431,
+      "g": 0.19607843137254902,
+      "b": 0.36470588235294116,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 7.704709862044137
+      },
+      {
+        "name": "RotateY",
+        "amount": 198.94736842105266
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2292.3699378004794
+      },
+      {
+        "name": "RotateZ",
+        "amount": 0.5487126448351538
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 6.314124148325536e-05
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.23137254901960785,
+      "g": 0.5882352941176471,
+      "b": 0.7333333333333333,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 8.047004639865088
+      },
+      {
+        "name": "RotateY",
+        "amount": 217.89473684210526
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2292.528995902133
+      },
+      {
+        "name": "RotateZ",
+        "amount": 0.6009709919623114
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 6.915469305308918e-05
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.6,
+      "g": 0.3843137254901961,
+      "b": 0.8352941176470589,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 8.389299417686038
+      },
+      {
+        "name": "RotateY",
+        "amount": 236.84210526315792
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2292.6880540037855
+      },
+      {
+        "name": "RotateZ",
+        "amount": 0.6532293390894689
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 7.516814462292304e-05
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.8823529411764706,
+      "g": 0.6862745098039216,
+      "b": 0.8470588235294118,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 8.731594195506988
+      },
+      {
+        "name": "RotateY",
+        "amount": 255.78947368421052
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2292.8471121054386
+      },
+      {
+        "name": "RotateZ",
+        "amount": 0.7054876862166264
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 8.118159619275686e-05
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.3137254901960784,
+      "g": 0.4549019607843137,
+      "b": 0.5450980392156862,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 9.07388897332794
+      },
+      {
+        "name": "RotateY",
+        "amount": 274.7368421052632
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2293.0061702070916
+      },
+      {
+        "name": "RotateZ",
+        "amount": 0.7577460333437839
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 8.719504776259071e-05
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.9058823529411765,
+      "g": 0.6235294117647059,
+      "b": 0.7568627450980392,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 9.416183751148889
+      },
+      {
+        "name": "RotateY",
+        "amount": 293.6842105263157
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2293.165228308744
+      },
+      {
+        "name": "RotateZ",
+        "amount": 0.8100043804709411
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 9.320849933242454e-05
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.6392156862745098,
+      "g": 0.8784313725490196,
+      "b": 0.7176470588235294,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 9.75847852896984
+      },
+      {
+        "name": "RotateY",
+        "amount": 312.6315789473684
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2293.3242864103977
+      },
+      {
+        "name": "RotateZ",
+        "amount": 0.8622627275980987
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 9.922195090225839e-05
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.9764705882352941,
+      "g": 0.1450980392156863,
+      "b": 0.9490196078431372,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 10.10077330679079
+      },
+      {
+        "name": "RotateY",
+        "amount": 331.578947368421
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2293.4833445120503
+      },
+      {
+        "name": "RotateZ",
+        "amount": 0.9145210747252562
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00010523540247209221
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.6078431372549019,
+      "g": 0.6196078431372549,
+      "b": 0.27450980392156865,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 10.44306808461174
+      },
+      {
+        "name": "RotateY",
+        "amount": 350.52631578947364
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2293.642402613703
+      },
+      {
+        "name": "RotateZ",
+        "amount": 0.9667794218524137
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00011124885404192606
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.9333333333333333,
+      "g": 0.10196078431372549,
+      "b": 0.9882352941176471,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 10.86912083062914
+      },
+      {
+        "name": "RotateY",
+        "amount": 5.806451612903224
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2293.7706752763265
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.0089232501807666
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00011609841175953402
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.8784313725490196,
+      "g": 0.09019607843137255,
+      "b": 0.34901960784313724,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 11.378931544842981
+      },
+      {
+        "name": "RotateY",
+        "amount": 17.419354838709673
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2293.8681624999203
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.0409525597103149
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00011978407562491606
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.6196078431372549,
+      "g": 0.1803921568627451,
+      "b": 0.6862745098039216,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 11.888742259056826
+      },
+      {
+        "name": "RotateY",
+        "amount": 29.032258064516128
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2293.9656497235137
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.0729818692398632
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0001234697394902981
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.8823529411764706,
+      "g": 0.8117647058823529,
+      "b": 0.20392156862745098,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 12.39855297327067
+      },
+      {
+        "name": "RotateY",
+        "amount": 40.64516129032257
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2294.0631369471075
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.105011178769411
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00012715540335568013
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.2627450980392157,
+      "g": 0.7647058823529411,
+      "b": 0.6078431372549019,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 12.908363687484513
+      },
+      {
+        "name": "RotateY",
+        "amount": 52.258064516129025
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2294.1606241707013
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.1370404882989593
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00013084106722106213
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.6078431372549019,
+      "g": 0.058823529411764705,
+      "b": 0.3215686274509804,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 13.418174401698359
+      },
+      {
+        "name": "RotateY",
+        "amount": 63.87096774193548
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2294.258111394295
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.1690697978285076
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0001345267310864442
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.403921568627451,
+      "g": 0.7568627450980392,
+      "b": 0.9098039215686274,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 13.9279851159122
+      },
+      {
+        "name": "RotateY",
+        "amount": 75.48387096774192
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2294.355598617889
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.2010991073580555
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0001382123949518262
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.13725490196078433,
+      "g": 0.047058823529411764,
+      "b": 0.9411764705882353,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 14.437795830126046
+      },
+      {
+        "name": "RotateY",
+        "amount": 87.09677419354838
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2294.4530858414823
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.2331284168876038
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00014189805881720827
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.9529411764705882,
+      "g": 0.6,
+      "b": 0.796078431372549,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 14.94760654433989
+      },
+      {
+        "name": "RotateY",
+        "amount": 98.70967741935483
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2294.550573065076
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.265157726417152
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00014558372268259028
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.7647058823529411,
+      "g": 0.3803921568627451,
+      "b": 0.8862745098039215,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 15.457417258553733
+      },
+      {
+        "name": "RotateY",
+        "amount": 110.3225806451613
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2294.64806028867
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.2971870359467
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0001492693865479723
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.9607843137254902,
+      "g": 0.8862745098039215,
+      "b": 0.4235294117647059,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 15.967227972767578
+      },
+      {
+        "name": "RotateY",
+        "amount": 121.93548387096774
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2294.745547512264
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.3292163454762482
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00015295505041335435
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.5254901960784314,
+      "g": 0.7019607843137254,
+      "b": 0.24313725490196078,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 16.477038686981423
+      },
+      {
+        "name": "RotateY",
+        "amount": 133.5483870967742
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2294.843034735857
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.3612456550057965
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00015664071427873636
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.16862745098039217,
+      "g": 0.6,
+      "b": 0.0196078431372549,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 16.986849401195265
+      },
+      {
+        "name": "RotateY",
+        "amount": 145.16129032258067
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2294.940521959451
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.3932749645353444
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00016032637814411842
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.7411764705882353,
+      "g": 0.9176470588235294,
+      "b": 0.6274509803921569,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 17.496660115409107
+      },
+      {
+        "name": "RotateY",
+        "amount": 156.77419354838707
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2295.038009183045
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.4253042740648927
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00016401204200950043
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.13333333333333333,
+      "g": 0.23137254901960785,
+      "b": 0.023529411764705882,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 18.006470829622952
+      },
+      {
+        "name": "RotateY",
+        "amount": 168.38709677419354
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2295.1354964066386
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.457333583594441
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0001676977058748825
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.5215686274509804,
+      "g": 0.16862745098039217,
+      "b": 0.09803921568627451,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 18.516281543836797
+      },
+      {
+        "name": "RotateY",
+        "amount": 180.0
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2295.2329836302324
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.4893628931239888
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0001713833697402645
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.8156862745098039,
+      "g": 0.36470588235294116,
+      "b": 0.1450980392156863,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 19.02609225805064
+      },
+      {
+        "name": "RotateY",
+        "amount": 191.61290322580646
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2295.330470853826
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.5213922026535371
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00017506903360564653
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.42745098039215684,
+      "g": 0.20392156862745098,
+      "b": 0.3058823529411765,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 19.535902972264488
+      },
+      {
+        "name": "RotateY",
+        "amount": 203.22580645161293
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2295.4279580774196
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.5534215121830854
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00017875469747102857
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.9019607843137255,
+      "g": 0.5647058823529412,
+      "b": 0.8549019607843137,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 20.04571368647833
+      },
+      {
+        "name": "RotateY",
+        "amount": 214.8387096774194
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2295.5254453010134
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.5854508217126333
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0001824403613364106
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.0784313725490196,
+      "g": 0.5176470588235295,
+      "b": 0.7568627450980392,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 20.55552440069217
+      },
+      {
+        "name": "RotateY",
+        "amount": 226.4516129032258
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2295.6229325246068
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.6174801312421816
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00018612602520179264
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.01568627450980392,
+      "g": 0.2235294117647059,
+      "b": 0.07058823529411765,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 21.06533511490602
+      },
+      {
+        "name": "RotateY",
+        "amount": 238.06451612903228
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2295.7204197482006
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.64950944077173
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00018981168906717467
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.6196078431372549,
+      "g": 0.9803921568627451,
+      "b": 0.4235294117647059,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 21.57514582911986
+      },
+      {
+        "name": "RotateY",
+        "amount": 249.67741935483872
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2295.8179069717944
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.6815387503012778
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0001934973529325567
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.15294117647058825,
+      "g": 0.7686274509803922,
+      "b": 0.8509803921568627,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 22.084956543333703
+      },
+      {
+        "name": "RotateY",
+        "amount": 261.2903225806452
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2295.915394195388
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.713568059830826
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00019718301679793872
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.1843137254901961,
+      "g": 0.3607843137254902,
+      "b": 0.011764705882352941,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 22.594767257547545
+      },
+      {
+        "name": "RotateY",
+        "amount": 272.9032258064516
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2296.012881418982
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.7455973693603741
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00020086868066332075
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.2627450980392157,
+      "g": 0.6039215686274509,
+      "b": 0.9333333333333333,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 23.104577971761394
+      },
+      {
+        "name": "RotateY",
+        "amount": 284.5161290322581
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2296.110368642576
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.7776266788899222
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0002045543445287028
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.9647058823529412,
+      "g": 0.592156862745098,
+      "b": 0.47058823529411764,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 23.614388685975236
+      },
+      {
+        "name": "RotateY",
+        "amount": 296.1290322580645
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2296.207855866169
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.8096559884194705
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00020824000839408482
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.8666666666666667,
+      "g": 0.8313725490196079,
+      "b": 0.8156862745098039,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 24.124199400189077
+      },
+      {
+        "name": "RotateY",
+        "amount": 307.741935483871
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2296.305343089763
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.8416852979490186
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00021192567225946686
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.8196078431372549,
+      "g": 0.4823529411764706,
+      "b": 0.611764705882353,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 24.63401011440292
+      },
+      {
+        "name": "RotateY",
+        "amount": 319.35483870967744
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2296.402830313357
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.8737146074785667
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0002156113361248489
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.19607843137254902,
+      "g": 0.9294117647058824,
+      "b": 0.9294117647058824,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 25.143820828616768
+      },
+      {
+        "name": "RotateY",
+        "amount": 330.96774193548384
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2296.50031753695
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.905743917008115
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00021929699999023093
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.09803921568627451,
+      "g": 0.2980392156862745,
+      "b": 0.592156862745098,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 25.65363154283061
+      },
+      {
+        "name": "RotateY",
+        "amount": 342.58064516129036
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2296.597804760544
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.9377732265376633
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00022298266385561297
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.32941176470588235,
+      "g": 0.0392156862745098,
+      "b": 0.49411764705882355,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 26.16344225704445
+      },
+      {
+        "name": "RotateY",
+        "amount": 354.19354838709677
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2296.695291984138
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.9698025360672111
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.000226668327720995
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.6274509803921569,
+      "g": 0.611764705882353,
+      "b": 0.5372549019607843,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 26.470435672800534
+      },
+      {
+        "name": "RotateY",
+        "amount": 1.698113207547171
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2296.758290803158
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.9905007219424382
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00022905010106796358
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.7019607843137254,
+      "g": 0.9764705882352941,
+      "b": 0.47058823529411764,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 26.574611790098842
+      },
+      {
+        "name": "RotateY",
+        "amount": 5.094339622641513
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2296.786801217606
+      },
+      {
+        "name": "RotateZ",
+        "amount": 1.9998677841633437
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00023012798389651868
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.23529411764705882,
+      "g": 0.43529411764705883,
+      "b": 0.34509803921568627,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 26.67878790739715
+      },
+      {
+        "name": "RotateY",
+        "amount": 8.490566037735855
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2296.8153116320527
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.009234846384249
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00023120586672507383
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.8274509803921568,
+      "g": 0.8627450980392157,
+      "b": 0.6078431372549019,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 26.782964024695467
+      },
+      {
+        "name": "RotateY",
+        "amount": 11.886792452830196
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2296.8438220465
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.018601908605155
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00023228374955362892
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.09803921568627451,
+      "g": 0.3215686274509804,
+      "b": 0.10980392156862745,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 26.887140141993775
+      },
+      {
+        "name": "RotateY",
+        "amount": 15.283018867924538
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2296.8723324609473
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.0279689708260604
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00023336163238218407
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.996078431372549,
+      "g": 0.611764705882353,
+      "b": 0.8,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 26.991316259292088
+      },
+      {
+        "name": "RotateY",
+        "amount": 18.67924528301888
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2296.900842875394
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.037336033046966
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00023443951521073917
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.7372549019607844,
+      "g": 0.058823529411764705,
+      "b": 0.058823529411764705,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 27.0954923765904
+      },
+      {
+        "name": "RotateY",
+        "amount": 22.07547169811322
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2296.929353289842
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.0467030952678718
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00023551739803929432
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.5882352941176471,
+      "g": 0.20784313725490197,
+      "b": 0.0196078431372549,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.5
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.75
+      },
+      {
+        "name": "TranslateX",
+        "amount": 27.19966849388871
+      },
+      {
+        "name": "RotateY",
+        "amount": 25.471698113207562
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2296.9578637042887
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.056070157488777
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0002365952808678494
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.23529411764705882,
+      "g": 0.050980392156862744,
+      "b": 0.6941176470588235,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.5
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.75
+      },
+      {
+        "name": "TranslateX",
+        "amount": 27.30384461118702
+      },
+      {
+        "name": "RotateY",
+        "amount": 28.867924528301906
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2296.9863741187364
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.0654372197096826
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00023767316369640456
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.5098039215686274,
+      "g": 0.6313725490196078,
+      "b": 0.8823529411764706,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.5
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.75
+      },
+      {
+        "name": "TranslateX",
+        "amount": 27.408020728485333
+      },
+      {
+        "name": "RotateY",
+        "amount": 32.264150943396245
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.0148845331832
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.0748042819305885
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00023875104652495966
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.6823529411764706,
+      "g": 0.43137254901960786,
+      "b": 0.9294117647058824,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.5
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.75
+      },
+      {
+        "name": "TranslateX",
+        "amount": 27.51219684578364
+      },
+      {
+        "name": "RotateY",
+        "amount": 35.66037735849059
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.043394947631
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.084171344151494
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0002398289293535148
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.4392156862745098,
+      "g": 0.10980392156862745,
+      "b": 0.9058823529411765,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.5
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.75
+      },
+      {
+        "name": "TranslateX",
+        "amount": 27.616372963081954
+      },
+      {
+        "name": "RotateY",
+        "amount": 39.056603773584925
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.071905362078
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.0935384063723994
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0002409068121820699
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.027450980392156862,
+      "g": 0.19215686274509805,
+      "b": 0.9529411764705882,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.5
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.75
+      },
+      {
+        "name": "TranslateX",
+        "amount": 27.720549080380266
+      },
+      {
+        "name": "RotateY",
+        "amount": 42.45283018867927
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.1004157765246
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.1029054685933053
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00024198469501062505
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.9215686274509803,
+      "g": 0.8588235294117647,
+      "b": 0.5137254901960784,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 27.824725197678575
+      },
+      {
+        "name": "RotateY",
+        "amount": 45.84905660377362
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.1289261909724
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.1122725308142107
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00024306257783918015
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.9450980392156862,
+      "g": 0.3607843137254902,
+      "b": 0.48627450980392156,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.5
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.75
+      },
+      {
+        "name": "TranslateX",
+        "amount": 27.92890131497689
+      },
+      {
+        "name": "RotateY",
+        "amount": 49.24528301886795
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.157436605419
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.121639593035116
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0002441404606677353
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.9411764705882353,
+      "g": 0.11372549019607843,
+      "b": 0.47058823529411764,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.5
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.75
+      },
+      {
+        "name": "TranslateX",
+        "amount": 28.0330774322752
+      },
+      {
+        "name": "RotateY",
+        "amount": 52.6415094339623
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.185947019867
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.131006655256022
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0002452183434962904
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.6941176470588235,
+      "g": 0.4980392156862745,
+      "b": 0.7607843137254902,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.5
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.75
+      },
+      {
+        "name": "TranslateX",
+        "amount": 28.137253549573508
+      },
+      {
+        "name": "RotateY",
+        "amount": 56.037735849056645
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.2144574343138
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.1403737174769275
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00024629622632484554
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.7411764705882353,
+      "g": 0.7725490196078432,
+      "b": 0.07058823529411765,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.5
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.75
+      },
+      {
+        "name": "TranslateX",
+        "amount": 28.241429666871824
+      },
+      {
+        "name": "RotateY",
+        "amount": 59.43396226415099
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.2429678487615
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.149740779697833
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0002473741091534007
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.5019607843137255,
+      "g": 0.47058823529411764,
+      "b": 0.13333333333333333,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.5
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.75
+      },
+      {
+        "name": "TranslateX",
+        "amount": 28.345605784170132
+      },
+      {
+        "name": "RotateY",
+        "amount": 62.83018867924533
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.2714782632083
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.159107841918739
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0002484519919819558
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.6666666666666666,
+      "g": 0.37254901960784315,
+      "b": 0.18823529411764706,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.5
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.75
+      },
+      {
+        "name": "TranslateX",
+        "amount": 28.44978190146844
+      },
+      {
+        "name": "RotateY",
+        "amount": 66.22641509433967
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.299988677655
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.1684749041396447
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0002495298748105109
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.9921568627450981,
+      "g": 0.5137254901960784,
+      "b": 0.6745098039215687,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.5
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.75
+      },
+      {
+        "name": "TranslateX",
+        "amount": 28.553958018766757
+      },
+      {
+        "name": "RotateY",
+        "amount": 69.622641509434
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.328499092103
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.1778419663605497
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00025060775763906604
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.8705882352941177,
+      "g": 0.6392156862745098,
+      "b": 0.13333333333333333,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.5
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.75
+      },
+      {
+        "name": "TranslateX",
+        "amount": 28.658134136065065
+      },
+      {
+        "name": "RotateY",
+        "amount": 73.01886792452837
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.3570095065497
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.1872090285814556
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0002516856404676212
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.2549019607843137,
+      "g": 0.7058823529411765,
+      "b": 0.5490196078431373,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 28.762310253363378
+      },
+      {
+        "name": "RotateY",
+        "amount": 76.4150943396227
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.3855199209975
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.1965760908023615
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0002527635232961763
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.8313725490196079,
+      "g": 0.4470588235294118,
+      "b": 0.32941176470588235,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 28.86648637066169
+      },
+      {
+        "name": "RotateY",
+        "amount": 79.81132075471703
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.4140303354443
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.2059431530232665
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0002538414061247314
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.2196078431372549,
+      "g": 0.1450980392156863,
+      "b": 0.00392156862745098,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 28.97066248796
+      },
+      {
+        "name": "RotateY",
+        "amount": 83.20754716981136
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.442540749892
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.2153102152441724
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0002549192889532865
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.2784313725490196,
+      "g": 0.788235294117647,
+      "b": 0.5058823529411764,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 29.07483860525831
+      },
+      {
+        "name": "RotateY",
+        "amount": 86.60377358490572
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.471051164339
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.2246772774650783
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0002559971717818417
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.7098039215686275,
+      "g": 0.00392156862745098,
+      "b": 0.33725490196078434,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 29.179014722556623
+      },
+      {
+        "name": "RotateY",
+        "amount": 90.00000000000006
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.499561578786
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.2340443396859833
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00025707505461039677
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.49411764705882355,
+      "g": 0.6313725490196078,
+      "b": 0.8235294117647058,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 29.28319083985493
+      },
+      {
+        "name": "RotateY",
+        "amount": 93.39622641509439
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.5280719932334
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.243411401906889
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00025815293743895187
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.984313725490196,
+      "g": 0.6,
+      "b": 0.403921568627451,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 29.387366957153247
+      },
+      {
+        "name": "RotateY",
+        "amount": 96.79245283018874
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.5565824076803
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.252778464127795
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.000259230820267507
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.3686274509803922,
+      "g": 0.8235294117647058,
+      "b": 0.5294117647058824,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 29.491543074451556
+      },
+      {
+        "name": "RotateY",
+        "amount": 100.18867924528308
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.585092822128
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.2621455263487
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00026030870309606217
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.3607843137254902,
+      "g": 0.2980392156862745,
+      "b": 0.396078431372549,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 29.595719191749865
+      },
+      {
+        "name": "RotateY",
+        "amount": 103.58490566037742
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.613603236575
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.271512588569606
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00026138658592461726
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.5058823529411764,
+      "g": 0.984313725490196,
+      "b": 0.29411764705882354,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 29.69989530904818
+      },
+      {
+        "name": "RotateY",
+        "amount": 106.98113207547175
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.6421136510226
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.280879650790512
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00026246446875317236
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.33725490196078434,
+      "g": 0.11764705882352941,
+      "b": 0.9215686274509803,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 29.80407142634649
+      },
+      {
+        "name": "RotateY",
+        "amount": 110.37735849056611
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.6706240654694
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.290246713011417
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0002635423515817275
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.6039215686274509,
+      "g": 0.23921568627450981,
+      "b": 0.5176470588235295,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 29.908247543644798
+      },
+      {
+        "name": "RotateY",
+        "amount": 113.77358490566044
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.699134479917
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.2996137752323227
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00026462023441028266
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.7647058823529411,
+      "g": 0.6078431372549019,
+      "b": 0.8705882352941177,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 30.012423660943114
+      },
+      {
+        "name": "RotateY",
+        "amount": 117.1698113207548
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.727644894364
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.3089808374532286
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00026569811723883775
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.07058823529411765,
+      "g": 0.15294117647058825,
+      "b": 0.17647058823529413,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 30.116599778241422
+      },
+      {
+        "name": "RotateY",
+        "amount": 120.56603773584916
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.756155308811
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.318347899674134
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0002667760000673929
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.9294117647058824,
+      "g": 0.7176470588235294,
+      "b": 0.7176470588235294,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 30.220775895539738
+      },
+      {
+        "name": "RotateY",
+        "amount": 123.96226415094351
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.7846657232585
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.3277149618950395
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.000267853882895948
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.4745098039215686,
+      "g": 0.4588235294117647,
+      "b": 0.33725490196078434,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 30.324952012838047
+      },
+      {
+        "name": "RotateY",
+        "amount": 127.35849056603786
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.8131761377053
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.3370820241159453
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00026893176572450315
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.13725490196078433,
+      "g": 0.023529411764705882,
+      "b": 0.8549019607843137,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 30.429128130136355
+      },
+      {
+        "name": "RotateY",
+        "amount": 130.75471698113222
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.841686552153
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.346449086336851
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00027000964855305825
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.6235294117647059,
+      "g": 0.5803921568627451,
+      "b": 0.8,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 30.53330424743467
+      },
+      {
+        "name": "RotateY",
+        "amount": 134.15094339622658
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.8701969666
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.3558161485577562
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0002710875313816134
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.7568627450980392,
+      "g": 0.5176470588235295,
+      "b": 0.788235294117647,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 30.63748036473298
+      },
+      {
+        "name": "RotateY",
+        "amount": 137.54716981132094
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.8987073810476
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.365183210778662
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00027216541421016855
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.5058823529411764,
+      "g": 0.7215686274509804,
+      "b": 0.5882352941176471,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 30.741656482031296
+      },
+      {
+        "name": "RotateY",
+        "amount": 140.9433962264153
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.9272177954945
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.374550272999568
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00027324329703872364
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.44313725490196076,
+      "g": 0.796078431372549,
+      "b": 0.8823529411764706,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 30.845832599329604
+      },
+      {
+        "name": "RotateY",
+        "amount": 144.3396226415096
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.9557282099413
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.383917335220473
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00027432117986727874
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.19607843137254902,
+      "g": 0.14901960784313725,
+      "b": 0.6549019607843137,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 30.950008716627913
+      },
+      {
+        "name": "RotateY",
+        "amount": 147.73584905660397
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2297.984238624389
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.393284397441379
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0002753990626958339
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.5607843137254902,
+      "g": 0.17254901960784313,
+      "b": 0.8470588235294118,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 31.05418483392623
+      },
+      {
+        "name": "RotateY",
+        "amount": 151.13207547169833
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2298.012749038836
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.4026514596622848
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00027647694552438904
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.37254901960784315,
+      "g": 0.44313725490196076,
+      "b": 0.4196078431372549,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 31.158360951224537
+      },
+      {
+        "name": "RotateY",
+        "amount": 154.5283018867927
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2298.0412594532836
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.41201852188319
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00027755482835294413
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.8,
+      "g": 0.30196078431372547,
+      "b": 0.050980392156862744,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 31.262537068522853
+      },
+      {
+        "name": "RotateY",
+        "amount": 157.92452830188705
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2298.0697698677304
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.4213855841040957
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0002786327111814993
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.8156862745098039,
+      "g": 0.8274509803921568,
+      "b": 0.0784313725490196,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 31.366713185821162
+      },
+      {
+        "name": "RotateY",
+        "amount": 161.3207547169814
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2298.098280282178
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.4307526463250015
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00027971059401005443
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.2,
+      "g": 0.6431372549019608,
+      "b": 0.34901960784313724,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 31.47088930311947
+      },
+      {
+        "name": "RotateY",
+        "amount": 164.71698113207577
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2298.126790696625
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.4401197085459074
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00028078847683860953
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.17647058823529413,
+      "g": 0.0196078431372549,
+      "b": 0.9411764705882353,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 31.575065420417786
+      },
+      {
+        "name": "RotateY",
+        "amount": 168.11320754717008
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2298.1553011110723
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.4494867707668124
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0002818663596671646
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.8117647058823529,
+      "g": 0.9019607843137255,
+      "b": 0.7176470588235294,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 31.679241537716095
+      },
+      {
+        "name": "RotateY",
+        "amount": 171.50943396226444
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2298.1838115255196
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.4588538329877183
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0002829442424957198
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.23137254901960785,
+      "g": 0.26666666666666666,
+      "b": 0.7098039215686275,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 31.78341765501441
+      },
+      {
+        "name": "RotateY",
+        "amount": 174.9056603773588
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2298.2123219399664
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.468220895208624
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.0002840221253242749
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  },
+  {
+    "asset": {
+      "name": "Cube",
+      "r": 0.5333333333333333,
+      "g": 0.8235294117647058,
+      "b": 0.6431372549019608,
+      "a": 1,
+      "h": 0
+    },
+    "transform": [
+      {
+        "name": "ScaleX",
+        "amount": 13.4375
+      },
+      {
+        "name": "ScaleY",
+        "amount": 16
+      },
+      {
+        "name": "ScaleZ",
+        "amount": 1
+      },
+      {
+        "name": "TranslateX",
+        "amount": 6.71875
+      },
+      {
+        "name": "TranslateX",
+        "amount": 31.88759377231272
+      },
+      {
+        "name": "RotateY",
+        "amount": 178.30188679245316
+      },
+      {
+        "name": "TranslateX",
+        "amount": 2298.240832354414
+      },
+      {
+        "name": "RotateZ",
+        "amount": 2.4775879574295296
+      },
+      {
+        "name": "TranslateX",
+        "amount": -272881.08732028306
+      },
+      {
+        "name": "RotateY",
+        "amount": 0.00028510000815283
+      },
+      {
+        "name": "TranslateX",
+        "amount": 272881.08732028306
+      }
+    ]
+  }
+]
