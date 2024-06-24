@@ -3,7 +3,7 @@ import * as THREE from 'three';
 export default addJsonDataToScene;
 
 function addJsonDataToScene(scene) {
-    fetch("renderspecs/renderspec100MB.json")
+    fetch("renderspecs/renderspecsub.json")
         .then((res) => {
             if (!res.ok) {
                 throw new Error
@@ -20,14 +20,15 @@ function addJsonDataToScene(scene) {
 }
 
 function addAssets(scene, assets) {
-    var grp = new THREE.Group;
+    var grpgrp = new THREE.Group;
+    var yrgrp = new THREE.Group;
+    var daygrp = new THREE.Group;
     for( var i=0; i< assets.length; i++ ) {
         var sofar = new Object;
         sofar.scale = new THREE.Vector3(1, 1, 1);
         sofar.rotation = new THREE.Quaternion;
-        sofar.rotation.identity;
+        sofar.rotation.identity();
         sofar.position = new THREE.Vector3(0, 0, 0);
-        applyTransforms(sofar, assets[i].transform);
         applyTransforms(sofar, assets[i].transform);
 
         //console.log(sofar.scale);
@@ -43,9 +44,21 @@ function addAssets(scene, assets) {
         cube.setRotationFromQuaternion(sofar.rotation);     // This DOESNT WORK
         cube.position.set(mult * sofar.position.x, mult * sofar.position.y, mult * sofar.position.z);
 
-        grp.add(cube);
+        daygrp.add(cube);
+        if( assets[i].lastOfDay==true )
+        {
+            yrgrp.add(daygrp);
+            daygrp = new THREE.Group;
+        }
+        if( assets[i].lastOfYear==true )
+        {
+            grpgrp.add(yrgrp);
+            yrgrp = new THREE.Group;
+        }
     }
-    scene.add( grp );
+    yrgrp.add(daygrp);
+    grpgrp.add(yrgrp);
+    scene.add( grpgrp );
 }
 
 function applyTransforms(transformSoFar, transforms)
@@ -72,20 +85,22 @@ function applyTransform(transformSoFar, transform) {
     if( transform.name=="RotateX") {
         var rot = new THREE.Quaternion;
         rot.setFromAxisAngle(new THREE.Vector3(1, 0, 0), transform.amount * Math.PI / 180);
-        transformSoFar.rotation.premultiply(rot);
+        var orig = transformSoFar.rotation.clone();
+        transformSoFar.rotation.multiplyQuaternions(rot, orig);
         transformSoFar.position.applyQuaternion(rot);
     }
-    // Y and Z are swapped due to difference between unreal and three.js
     if( transform.name=="RotateY") {
         var rot = new THREE.Quaternion;
         rot.setFromAxisAngle(new THREE.Vector3(0, 1, 0), transform.amount * Math.PI / 180);
-        transformSoFar.rotation.premultiply(rot);
+        var orig = transformSoFar.rotation.clone();
+        transformSoFar.rotation.multiplyQuaternions(rot, orig);
         transformSoFar.position.applyQuaternion(rot);
     }
     if( transform.name=="RotateZ") {
         var rot = new THREE.Quaternion;
         rot.setFromAxisAngle(new THREE.Vector3(0, 0, 1), transform.amount * Math.PI / 180);
-        transformSoFar.rotation.premultiply(rot);
+        var orig = transformSoFar.rotation.clone();
+        transformSoFar.rotation.multiplyQuaternions(rot, orig);
         transformSoFar.position.applyQuaternion(rot);
     }
 }
