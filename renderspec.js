@@ -20,46 +20,39 @@ function addJsonDataToScene(scene) {
 }
 
 function addAssets(scene, assets) {
-    var grpgrp = new THREE.Group;
-    var yrgrp = new THREE.Group;
-    var daygrp = new THREE.Group;
+    var size = 0.1;
+    var cubegeom = new THREE.BoxGeometry(1,1,1);
+    const cubematerial = new THREE.MeshLambertMaterial();
+    var instancedmesh = new THREE.InstancedMesh(cubegeom, cubematerial, assets.length);
+    instancedmesh.count = assets.length
     for( var i=0; i< assets.length; i++ ) {
         var sofar = new Object;
         sofar.scale = new THREE.Vector3(1, 1, 1);
         sofar.rotation = new THREE.Quaternion;
-        sofar.rotation.identity();
         sofar.position = new THREE.Vector3(0, 0, 0);
         applyTransforms(sofar, assets[i].transform);
+        sofar.scale.x *= size;
+        sofar.scale.y *= size;
+        sofar.scale.z *= size;
+        sofar.position.x *= size;
+        sofar.position.y *= size;
+        sofar.position.z *= size;
 
-        //console.log(sofar.scale);
-        var mult = 0.01;
-        const geometry = new THREE.BoxGeometry(mult * sofar.scale.x, mult * sofar.scale.y, mult * sofar.scale.z);
         var r = Math.floor(assets[i].asset.r * 255) * 65536;
         var g = Math.floor(assets[i].asset.g * 255) * 256;
         var b = Math.floor(assets[i].asset.b * 255);
         var col = r + g + b;
-        const material = new THREE.MeshLambertMaterial({color: col});
-        const cube = new THREE.Mesh(geometry, material);
 
-        cube.setRotationFromQuaternion(sofar.rotation);     // This DOESNT WORK
-        cube.position.set(mult * sofar.position.x, mult * sofar.position.y, mult * sofar.position.z);
-
-        daygrp.add(cube);
-        if( assets[i].lastOfDay==true )
-        {
-            yrgrp.add(daygrp);
-            daygrp = new THREE.Group;
-        }
-        if( assets[i].lastOfYear==true )
-        {
-            grpgrp.add(yrgrp);
-            yrgrp = new THREE.Group;
-        }
+        var m4 = new THREE.Matrix4;
+        m4.compose(sofar.position, sofar.rotation, sofar.scale);
+        instancedmesh.setMatrixAt(i, m4);
+        instancedmesh.setColorAt(i, new THREE.Color(col));
     }
-    yrgrp.add(daygrp);
-    grpgrp.add(yrgrp);
-    grpgrp.quaternion.setFromAxisAngle(new THREE.Vector3(1,0,0), -Math.PI/2);
-    scene.add( grpgrp );
+    instancedmesh.quaternion.setFromAxisAngle(new THREE.Vector3(1,0,0), -Math.PI/2);
+    instancedmesh.instanceMatrix.meedsUpdate = true;
+    instancedmesh.instanceColor.needsUpdate = true;
+    scene.add( instancedmesh )
+    console.log("Added instances: ", assets.length);
 }
 
 function applyTransforms(transformSoFar, transforms)

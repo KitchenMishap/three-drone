@@ -26,7 +26,7 @@ texture.wrapT = THREE.RepeatWrapping;
 texture.repeat.set( 10, 10 );
 // I think this plane is xy so we'll have to rotate it by PI/2 to be a floor
 const planeGeom = new THREE.PlaneGeometry( 10000, 10000 );
-const planeMat = new THREE.MeshLambertMaterial( {color: 0x88ff88, side: THREE.BothSides} );
+const planeMat = new THREE.MeshLambertMaterial( {color: 0x88ff88} );
 planeMat.bumpMap = texture;
 const plane = new THREE.Mesh( planeGeom, planeMat );
 plane.rotation.x = -Math.PI / 2;
@@ -34,7 +34,7 @@ scene.add( plane );
 
 // Cube
 const geometry = new THREE.BoxGeometry( 20, 20, 20 );
-const material = new THREE.MeshLambertMaterial( { color: 0xffffff } );
+const material = new THREE.MeshLambertMaterial();
 const cube = new THREE.Mesh( geometry, material );
 cube.position.y = 20
 scene.add( cube );
