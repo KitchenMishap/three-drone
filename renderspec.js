@@ -3,7 +3,7 @@ import * as THREE from 'three';
 export default addJsonDataToScene;
 
 function addJsonDataToScene(scene) {
-    fetch("renderspecs/renderspecsub.json")
+    fetch("renderspecs/renderspecquat.json")
         .then((res) => {
             if (!res.ok) {
                 throw new Error
@@ -22,21 +22,21 @@ function addJsonDataToScene(scene) {
 function addAssets(scene, assets) {
     var size = 0.1;
     var cubegeom = new THREE.BoxGeometry(1,1,1);
-    const cubematerial = new THREE.MeshLambertMaterial();
-    var instancedmesh = new THREE.InstancedMesh(cubegeom, cubematerial, assets.length);
-    instancedmesh.count = assets.length
-    for( var i=0; i< assets.length; i++ ) {
+    const cubematerial = new THREE.MeshMatcapMaterial();
+    var count = assets.length;
+    var instancedmesh = new THREE.InstancedMesh(cubegeom, cubematerial, count);
+    instancedmesh.count = count
+    for( var i=0; i< count; i++ ) {
         var sofar = new Object;
-        sofar.scale = new THREE.Vector3(1, 1, 1);
-        sofar.rotation = new THREE.Quaternion;
-        sofar.position = new THREE.Vector3(0, 0, 0);
-        applyTransforms(sofar, assets[i].transform);
-        sofar.scale.x *= size;
-        sofar.scale.y *= size;
-        sofar.scale.z *= size;
-        sofar.position.x *= size;
-        sofar.position.y *= size;
-        sofar.position.z *= size;
+        sofar.scale = assets[i].compositeTransform.scale;
+        sofar.rotation = assets[i].compositeTransform.quat;
+        sofar.position = assets[i].compositeTransform.pos;
+        sofar.scale[0] *= size;
+        sofar.scale[1] *= size;
+        sofar.scale[2] *= size;
+        sofar.position[0] *= size;
+        sofar.position[1] *= size;
+        sofar.position[2] *= size;
 
         var r = Math.floor(assets[i].asset.r * 255) * 65536;
         var g = Math.floor(assets[i].asset.g * 255) * 256;
@@ -44,7 +44,10 @@ function addAssets(scene, assets) {
         var col = r + g + b;
 
         var m4 = new THREE.Matrix4;
-        m4.compose(sofar.position, sofar.rotation, sofar.scale);
+        var pos = new THREE.Vector3(sofar.position[0], sofar.position[1], sofar.position[2]);
+        var rot = new THREE.Quaternion(sofar.rotation[3],sofar.rotation[0],sofar.rotation[1], sofar.rotation[2]);
+        var scal = new THREE.Vector3(sofar.scale[0], sofar.scale[1], sofar.scale[2]);
+        m4.compose(pos,rot,scal);
         instancedmesh.setMatrixAt(i, m4);
         instancedmesh.setColorAt(i, new THREE.Color(col));
     }
