@@ -58,6 +58,7 @@ function addAssets(scene, assets) {
     }
     yrgrp.add(daygrp);
     grpgrp.add(yrgrp);
+    grpgrp.quaternion.setFromAxisAngle(new THREE.Vector3(1,0,0), -Math.PI/2);
     scene.add( grpgrp );
 }
 
