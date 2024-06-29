@@ -38,9 +38,9 @@ function addAssets(scene, assets) {
         sofar.position[1] *= size;
         sofar.position[2] *= size;
 
-        var r = Math.floor(assets[i].asset.r * 255) * 65536;
-        var g = Math.floor(assets[i].asset.g * 255) * 256;
-        var b = Math.floor(assets[i].asset.b * 255);
+        var r = Math.floor(assets[i].asset.r) * 65536;
+        var g = Math.floor(assets[i].asset.g) * 256;
+        var b = Math.floor(assets[i].asset.b);
         var col = r + g + b;
 
         var m4 = new THREE.Matrix4;
