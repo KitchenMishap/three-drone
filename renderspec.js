@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import {stringToFloatArray} from './transportTools.js'
 
 export default addJsonDataToScene;
 
@@ -28,9 +29,9 @@ function addAssets(scene, assets) {
     instancedmesh.count = count
     for( var i=0; i< count; i++ ) {
         var sofar = new Object;
-        sofar.scale = assets[i].compositeTransform.scale;
-        sofar.rotation = assets[i].compositeTransform.quat;
-        sofar.position = assets[i].compositeTransform.pos;
+        sofar.scale = stringToFloatArray(assets[i].trans.s);
+        sofar.rotation = stringToFloatArray(assets[i].trans.q);
+        sofar.position = stringToFloatArray(assets[i].trans.p);
         sofar.scale[0] *= size;
         sofar.scale[1] *= size;
         sofar.scale[2] *= size;

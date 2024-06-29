@@ -6,9 +6,12 @@ import WebGL from 'three/addons/capabilities/WebGL.js';
 import { Sky } from 'three/addons/objects/Sky.js';
 
 import addJsonDataToScene from './renderspec.js'
-import quat_last_element_is_real_test from './test.js'
+import {quat_last_is_real_test, twos_test} from './test.js'
 
-quat_last_element_is_real_test();
+console.log("Running tests...")
+quat_last_is_real_test();
+twos_test();
+console.log("Tests run.")
 
 const scene = new THREE.Scene();
 
