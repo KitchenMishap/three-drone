@@ -45,12 +45,18 @@ function addAssets(scene, assets) {
 
         var m4 = new THREE.Matrix4;
         var pos = new THREE.Vector3(sofar.position[0], sofar.position[1], sofar.position[2]);
-        var rot = new THREE.Quaternion(sofar.rotation[3],sofar.rotation[0],sofar.rotation[1], sofar.rotation[2]);
+        // Last element is real, as comfirmed in quat_last_is_real_test()
+        // (whereas from Python land, first element is real)
+        var rot = new THREE.Quaternion(sofar.rotation[1],sofar.rotation[2],sofar.rotation[3], sofar.rotation[0]);
         var scal = new THREE.Vector3(sofar.scale[0], sofar.scale[1], sofar.scale[2]);
         m4.compose(pos,rot,scal);
         instancedmesh.setMatrixAt(i, m4);
         instancedmesh.setColorAt(i, new THREE.Color(col));
     }
+    // Now then...
+    // From Python land (Unreal Engine), we had X forward, Y right, Z up.
+    // Here in three.js we have Z forward, X right, Y up.
+    // We'll need to do a rotation
     instancedmesh.quaternion.setFromAxisAngle(new THREE.Vector3(1,0,0), -Math.PI/2);
     instancedmesh.instanceMatrix.meedsUpdate = true;
     instancedmesh.instanceColor.needsUpdate = true;
