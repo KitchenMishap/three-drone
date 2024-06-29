@@ -4,7 +4,7 @@ import {stringToFloatArray} from './transportTools.js'
 export default addJsonDataToScene;
 
 function addJsonDataToScene(scene) {
-    fetch("renderspecs/renderspecquat.json")
+    fetch("renderspecs/renderspecb64.json")
         .then((res) => {
             if (!res.ok) {
                 throw new Error
@@ -39,10 +39,7 @@ function addAssets(scene, assets) {
         sofar.position[1] *= size;
         sofar.position[2] *= size;
 
-        var r = Math.floor(assets[i].asset.r) * 65536;
-        var g = Math.floor(assets[i].asset.g) * 256;
-        var b = Math.floor(assets[i].asset.b);
-        var col = r + g + b;
+        var col = Math.floor(assets[i].asset.rgba / 256);
 
         var m4 = new THREE.Matrix4;
         var pos = new THREE.Vector3(sofar.position[0], sofar.position[1], sofar.position[2]);
