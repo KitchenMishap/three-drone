@@ -8,6 +8,21 @@ import { Sky } from 'three/addons/objects/Sky.js';
 import addJsonDataToScene from './renderspec.js'
 import {quat_last_is_real_test, twos_test} from './test.js'
 
+// Get the URL parameters
+const queryString = window.location.search;
+// Get the set of parameters
+const urlParams = new URLSearchParams(queryString);
+// Check for a blocks= parameter
+var maxBlocks=100000;     // Default 100,000 blocks
+if( urlParams.has('blocks') )
+{
+    var blocksString = urlParams.get('blocks');
+    if( !isNaN(blocksString) )
+    {
+        maxBlocks = +blocksString;
+    }
+}
+
 console.log("Running tests...")
 quat_last_is_real_test();
 twos_test();
@@ -70,7 +85,7 @@ directionalLightBlue.position.set( -1000,1000,1000 );
 scene.add( directionalLightBlue );
 
 if ( WebGL.isWebGLAvailable() ) {
-    addJsonDataToScene(scene);
+    addJsonDataToScene(scene, maxBlocks);
     renderer.setAnimationLoop( animate );
 } else {
     const warning = WebGL.getWebGLErrorMessage();

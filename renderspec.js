@@ -3,7 +3,7 @@ import {stringToFloatArray} from './transportTools.js'
 
 export default addJsonDataToScene;
 
-function addJsonDataToScene(scene) {
+function addJsonDataToScene(scene, maxAssets) {
     fetch("renderspecs/renderspecb64.json")
         .then((res) => {
             if (!res.ok) {
@@ -14,17 +14,21 @@ function addJsonDataToScene(scene) {
         })
         .then(
             (json) => {
-                    addAssets(scene, json);
+                    addAssets(scene, json, maxAssets);
             })
         .catch((error) =>
             console.error("Unable to fetch data:", error));
 }
 
-function addAssets(scene, assets) {
+function addAssets(scene, assets, maxAssets) {
     var size = 0.1;
     var cubegeom = new THREE.BoxGeometry(1,1,1);
     const cubematerial = new THREE.MeshMatcapMaterial();
     var count = assets.length;
+    if( maxAssets < count )
+    {
+        count=maxAssets;
+    }
     var instancedmesh = new THREE.InstancedMesh(cubegeom, cubematerial, count);
     instancedmesh.count = count
     for( var i=0; i< count; i++ ) {
