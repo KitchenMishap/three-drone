@@ -1,3 +1,5 @@
+// https://gist.github.com/sketchpunk/6c60f6b78d4b66c729dcbf460ea06b42
+
 export function stringToFloatArray(str)
 {
     let blob = atob( str );
