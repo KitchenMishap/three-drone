@@ -23,6 +23,17 @@ if( urlParams.has('blocks') )
         maxBlocks = +blocksString;
     }
 }
+// Check for a dpg= parameter
+var daysPerGroup = 20;
+if( urlParams.has('dpg') )
+{
+    var dpgString = urlParams.get('dpg');
+    if( !isNaN(dpgString) )
+    {
+        daysPerGroup = +dpgString;
+    }
+}
+
 
 console.log("Running tests...")
 quat_last_is_real_test();
@@ -87,7 +98,7 @@ directionalLightBlue.position.set( -1000,1000,1000 );
 scene.add( directionalLightBlue );
 
 if ( WebGL.isWebGLAvailable() ) {
-    addJsonDataToScene(scene, maxBlocks);
+    addJsonDataToScene(scene, maxBlocks, daysPerGroup);
     renderer.setAnimationLoop( animate );
 } else {
     const warning = WebGL.getWebGLErrorMessage();
