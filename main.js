@@ -14,7 +14,7 @@ const queryString = window.location.search;
 // Get the set of parameters
 const urlParams = new URLSearchParams(queryString);
 // Check for a blocks= parameter
-var maxBlocks=100000;     // Default 100,000 blocks
+var maxBlocks=50000;     // Default 100,000 blocks
 if( urlParams.has('blocks') )
 {
     var blocksString = urlParams.get('blocks');
@@ -24,7 +24,7 @@ if( urlParams.has('blocks') )
     }
 }
 // Check for a dpg= parameter
-var daysPerGroup = 20;
+var daysPerGroup = 15;
 if( urlParams.has('dpg') )
 {
     var dpgString = urlParams.get('dpg');

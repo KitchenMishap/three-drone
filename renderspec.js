@@ -20,17 +20,15 @@ function addJsonDataToScene(scene, maxAssets, daysPerGroup) {
             console.error("Unable to fetch data:", error));
 }
 
+// maxAssets is now a limit for detail, not overall count
 function addAssets(scene, assets, maxAssets, daysPerGroup) {
     var size = 0.1;
     var dayOfGroup = 0;
     var cubegeom = new THREE.BoxGeometry(1,1,1);
     const cubematerial = new THREE.MeshMatcapMaterial();
     var grp = [];
+    var grpNum = 0;
     var count = assets.length;
-    if( maxAssets < count )
-    {
-        count=maxAssets;
-    }
     for( var i=0; i< count; i++ ) {
         if( 'fod' in assets[i] )
         {
@@ -38,11 +36,15 @@ function addAssets(scene, assets, maxAssets, daysPerGroup) {
             dayOfGroup++;
             if( dayOfGroup==daysPerGroup )
             {
+                // Any group beyond first maxAssets becomes a reduced tetrahedron
+                var reduction = 0.1
+                var asTri = (i > maxAssets);
                 // New group. New instanced mesh. Create, populate and add the current one to the scene
-                scene.add(instancedMeshForGroup(grp, cubegeom, cubematerial));
+                scene.add(instancedMeshForGroup(grp, cubegeom, cubematerial, asTri, reduction));
                 // Start a new group
                 grp = [];
                 dayOfGroup = 0;
+                grpNum++;
             }
         }
 
@@ -74,12 +76,12 @@ function addAssets(scene, assets, maxAssets, daysPerGroup) {
     }
 
     // Create instanced mesh for the current (final) group
-    scene.add(instancedMeshForGroup(grp, cubegeom, cubematerial));
+    scene.add(instancedMeshForGroup(grp, cubegeom, cubematerial, false, reduction));
 
     console.log("Added instances: ", assets.length);
 }
 
-function instancedMeshForGroup(grp, cubegeom, cubematerial)
+function instancedMeshForGroup(grp, cubegeom, cubematerial, asTri, reduction )
 {
     var grpCount = grp.length;
     var instancedmesh = new THREE.InstancedMesh(cubegeom, cubematerial, grpCount);
@@ -97,7 +99,21 @@ function instancedMeshForGroup(grp, cubegeom, cubematerial)
     instancedmesh.instanceMatrix.meedsUpdate = true;
     instancedmesh.instanceColor.needsUpdate = true;
 
-    return instancedmesh;
+    if( asTri )
+    {
+        instancedmesh.computeBoundingSphere();
+        var sph = instancedmesh.boundingSphere;
+        const geometry = new THREE.TetrahedronGeometry(sph.radius * reduction);
+        const material = new THREE.MeshLambertMaterial( { color: 0xffffff } );
+        var mesh = new THREE.Mesh( geometry, material );
+        // Want to rotate by x axis 180 degrees. This is a trial and error hack
+        mesh.position.set(sph.center.x, sph.center.z, -sph.center.y);
+        return mesh;
+    }
+    else
+    {
+        return instancedmesh;
+    }
 }
 
 function applyTransforms(transformSoFar, transforms)
