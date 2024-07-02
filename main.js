@@ -7,6 +7,7 @@ import { Sky } from 'three/addons/objects/Sky.js';
 
 import addJsonDataToScene from './renderspec.js'
 import {quat_last_is_real_test, twos_test} from './test.js'
+import Stats from './Stats.js'
 
 // Get the URL parameters
 const queryString = window.location.search;
@@ -29,6 +30,7 @@ twos_test();
 console.log("Tests run.")
 
 const scene = new THREE.Scene();
+var stats
 
 // Camera
 const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 10000000 );
@@ -92,12 +94,16 @@ if ( WebGL.isWebGLAvailable() ) {
     document.getElementById( 'container' ).appendChild( warning );
 }
 
+stats = createStats();
+document.body.appendChild( stats.domElement );
+
 function animate() {
     cube.rotation.x += 0.01;
     cube.rotation.y += 0.01;
     rotateCamera();
     moveCamera();
     renderer.render( scene, camera );
+    stats.update();
 }
 
 var mouseScaledX = 0;
@@ -149,4 +155,15 @@ function moveCamera() {
     var moveForwardBack = dive * 10;
     camera.position.x += zAxis.x * moveForwardBack;
     camera.position.z += zAxis.z * moveForwardBack;
+}
+
+function createStats() {
+    stats = new Stats();
+    stats.setMode(0);
+
+    stats.domElement.style.position = 'absolute';
+    stats.domElement.style.left = '0';
+    stats.domElement.style.top = '0';
+
+    return stats;
 }
