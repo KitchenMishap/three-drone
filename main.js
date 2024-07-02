@@ -97,8 +97,12 @@ var directionalLightBlue = new THREE.DirectionalLight( 0x0000ff, 0.5 );
 directionalLightBlue.position.set( -1000,1000,1000 );
 scene.add( directionalLightBlue );
 
+var hiresLoresSphere = [];
+
+var frameNum = 0;
+
 if ( WebGL.isWebGLAvailable() ) {
-    addJsonDataToScene(scene, maxBlocks, daysPerGroup);
+    addJsonDataToScene(scene, maxBlocks, daysPerGroup, hiresLoresSphere);
     renderer.setAnimationLoop( animate );
 } else {
     const warning = WebGL.getWebGLErrorMessage();
@@ -113,8 +117,10 @@ function animate() {
     cube.rotation.y += 0.01;
     rotateCamera();
     moveCamera();
+    juggleVisible(frameNum);
     renderer.render( scene, camera );
     stats.update();
+    frameNum++;
 }
 
 var mouseScaledX = 0;
@@ -177,4 +183,14 @@ function createStats() {
     stats.domElement.style.top = '0';
 
     return stats;
+}
+
+function juggleVisible(frameNum)
+{
+    for( var i=0; i<hiresLoresSphere.length; i++)
+    {
+        var useHires = (i%5 == frameNum %5);
+        hiresLoresSphere[i].hires.visible = useHires;
+        hiresLoresSphere[i].lores.visible = !useHires;
+    }
 }
