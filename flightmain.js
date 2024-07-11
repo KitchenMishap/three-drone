@@ -14,7 +14,16 @@ camera.position.z = 200;
 camera.position.y = 30;
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize( window.innerWidth, window.innerHeight );
-document.body.appendChild( renderer.domElement );
+var div = document.createElement('div');
+document.body.appendChild( div );
+div.appendChild( renderer.domElement );
+
+// HUD
+var hudCanvas = document.createElement('canvas');
+hudCanvas.id = 'hud';
+hudCanvas.width = window.innerWidth;
+hudCanvas.height = window.innerHeight;
+div.appendChild(hudCanvas); // adds the canvas to the body element
 
 // Green Floor
 const texture = new THREE.TextureLoader().load( "textures/chess.jpg" );
@@ -75,6 +84,7 @@ function animateFlight() {
     rotateCameraFlight();
     moveCameraFlight();
     renderer.render( scene, camera );
+    drawHud();
 }
 
 var mouseScaledX = 0;
@@ -125,4 +135,14 @@ function moveCameraFlight() {
     var moveForwardBack = dive * 10;
     camera.position.x += zAxis.x * moveForwardBack;
     camera.position.z += zAxis.z * moveForwardBack;
+}
+
+function drawHud()
+{
+    var context = hudCanvas.getContext('2d');
+    context.clearRect(0,0,window.innerWidth,window.innerHeight);
+    context.beginPath();
+    context.moveTo(100,100);
+    context.lineTo(200,200);
+    context.stroke();
 }
