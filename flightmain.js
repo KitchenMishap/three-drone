@@ -4,7 +4,7 @@ import * as THREE from 'three';
 
 import WebGL from 'three/addons/capabilities/WebGL.js';
 import { Sky } from 'three/addons/objects/Sky.js';
-import {toScreenCircle} from './threeto2d.js'
+import {sphereToScreenCircle} from './threeto2d.js'
 
 const scene = new THREE.Scene();
 const degreesFov = 75;
@@ -140,7 +140,8 @@ function moveCameraFlight() {
 
 function drawHud()
 {
-    var xyr = toScreenCircle(cubeMesh, camera, 20);
+    var sphere = new THREE.Sphere(new THREE.Vector3(0,20,0),cubeSide);
+    var xyr = sphereToScreenCircle(sphere, camera);
 
     var context = hudCanvas.getContext('2d');
     context.clearRect(0,0,window.innerWidth,window.innerHeight);
