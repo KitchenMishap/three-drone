@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import {stableSort} from './stableSort.js'
+import {stableSort} from './stablesort.js'
 import {sphereToScreenArea} from './threeto2d.js'
 
 export function sortedByScreenArea(camera, hiresLoresSphere, sortedByArea)
