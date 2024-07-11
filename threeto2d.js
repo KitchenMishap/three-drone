@@ -26,15 +26,44 @@ export function sphereToScreenCircle(sphere, camera)
 }
 
 export function rightOfPointOnScreen(point, camera, radius3d) {
-    console.log(radius3d);
     var cameraLocalRight = new THREE.Vector3(1, 0, 0);
-    console.log(cameraLocalRight);
     cameraLocalRight.multiplyScalar(radius3d);
-    console.log(cameraLocalRight);
     var cameraWorldRight = camera.localToWorld(cameraLocalRight);
     cameraWorldRight.sub(camera.position);
 
     var objectPosition = new THREE.Vector3(point.x, point.y, point.z);
     objectPosition.add(cameraWorldRight);
     return objectPosition;
+}
+
+export function sphereToScreenRect(sphere, camera)
+{
+    var xyr = sphereToScreenCircle(sphere, camera)
+    if( xyr.r === Infinity )
+    {
+        console.log("r is infinity");
+    }
+    var min = new THREE.Vector2(xyr.x - xyr.r, xyr.y - xyr.r);
+    var max = new THREE.Vector2(xyr.x + xyr.r, xyr.y + xyr.r);
+    if( max.x === Infinity || max.y === Infinity)
+    {
+        console.log("Max x or y is inifinity");
+    }
+    var sphereBox = new THREE.Box2(min, max);
+    var smin = new THREE.Vector2(5,5);
+    var smax = new THREE.Vector2(window.innerWidth-5,window.innerHeight-5);
+    var scrBox = new THREE.Box2(smin,smax);
+    var intBox = sphereBox.intersect(scrBox);
+    return intBox;
+}
+
+export function sphereToScreenArea(sphere, camera)
+{
+    var box = sphereToScreenRect(sphere, camera);
+    if( box.isEmpty() )
+    {
+        return 0;
+    }
+    var area = (box.max.x - box.min.x) * (box.max.y - box.min.y);
+    return area;
 }

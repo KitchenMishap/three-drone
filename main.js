@@ -8,6 +8,7 @@ import { Sky } from 'three/addons/objects/Sky.js';
 import addJsonDataToScene from './renderspec.js'
 import {quat_last_is_real_test, twos_test} from './test.js'
 import Stats from './Stats.js'
+import {sortedByScreenArea} from './boundingsphere.js'
 
 // Get the URL parameters
 const queryString = window.location.search;
@@ -51,7 +52,16 @@ camera.position.y = 30;
 // Renderer
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize( window.innerWidth, window.innerHeight );
-document.body.appendChild( renderer.domElement );
+var div = document.createElement('div');
+document.body.appendChild( div );
+div.appendChild( renderer.domElement );
+
+// HUD
+var hudCanvas = document.createElement('canvas');
+hudCanvas.id = 'hud';
+hudCanvas.width = window.innerWidth;
+hudCanvas.height = window.innerHeight;
+div.appendChild(hudCanvas);
 
 // Green Floor
 const texture = new THREE.TextureLoader().load( "textures/chess.jpg" );
@@ -67,7 +77,8 @@ plane.rotation.x = -Math.PI / 2;
 scene.add( plane );
 
 // Cube
-const geometry = new THREE.BoxGeometry( 20, 20, 20 );
+var cubeSide = 20;
+const geometry = new THREE.BoxGeometry( cubeSide, cubeSide, cubeSide );
 const material = new THREE.MeshLambertMaterial();
 const cube = new THREE.Mesh( geometry, material );
 cube.position.y = 20
@@ -98,11 +109,12 @@ directionalLightBlue.position.set( -1000,1000,1000 );
 scene.add( directionalLightBlue );
 
 var hiresLoresSphere = [];
-
+var sortedByArea = [];
 var frameNum = 0;
 
+var loaded = {};
 if ( WebGL.isWebGLAvailable() ) {
-    addJsonDataToScene(scene, maxBlocks, daysPerGroup, hiresLoresSphere);
+    addJsonDataToScene(scene, maxBlocks, daysPerGroup, hiresLoresSphere, sortedByArea, loaded);
     renderer.setAnimationLoop( animate );
 } else {
     const warning = WebGL.getWebGLErrorMessage();
@@ -113,14 +125,17 @@ stats = createStats();
 document.body.appendChild( stats.domElement );
 
 function animate() {
-    cube.rotation.x += 0.01;
-    cube.rotation.y += 0.01;
-    rotateCamera();
-    moveCamera();
-    juggleVisible(frameNum);
-    renderer.render( scene, camera );
-    stats.update();
-    frameNum++;
+    if( loaded.loaded ) {
+        cube.rotation.x += 0.01;
+        cube.rotation.y += 0.01;
+        rotateCamera();
+        moveCamera();
+        juggleVisible(frameNum);
+        renderer.render(scene, camera);
+        stats.update();
+        frameNum++;
+        drawHud();
+    }
 }
 
 var mouseScaledX = 0;
@@ -187,10 +202,56 @@ function createStats() {
 
 function juggleVisible(frameNum)
 {
-    for( var i=0; i<hiresLoresSphere.length; i++)
+    sortedByArea = sortedByScreenArea(camera, hiresLoresSphere, sortedByArea);
+
+    const numToShowHires = 50;
+    const numPotentials = hiresLoresSphere.length;
+    for( var i=0; i<sortedByArea.length; i++)
     {
-        var useHires = (i%5 == frameNum %5);
-        hiresLoresSphere[i].hires.visible = useHires;
-        hiresLoresSphere[i].lores.visible = !useHires;
+        var index = sortedByArea[i].index;
+        var area = sortedByArea[i].screenArea;
+        var showHires;
+        var showLores;
+        if(area==0) {
+            showHires = false;
+            showLores = false;
+        } else {
+            showHires = (i > (numPotentials - numToShowHires));
+            console.log(showHires, area);
+            showLores = !showHires;
+        }
+        hiresLoresSphere[index].hires.visible = showHires;
+        hiresLoresSphere[index].lores.visible = showLores;
     }
+}
+
+function drawHud()
+{
+    /*
+    var sphere = new THREE.Sphere(new THREE.Vector3(0,20,0),cubeSide);
+    var xyr = sphereToScreenCircle(sphere, camera);
+
+    var context = hudCanvas.getContext('2d');
+    context.clearRect(0,0,window.innerWidth,window.innerHeight);
+    context.beginPath();
+    context.arc(xyr.x,xyr.y,xyr.r,0,Math.PI*2,false);
+    context.stroke();
+
+    for( var i=0; i<hiresLoresSphere.length; i++ )
+    {
+        var hi = hiresLoresSphere[i].hires;
+        var bs = hi.boundingSphere;
+        // Want to rotate by x axis 180 degrees. This is a trial and error hack
+        var bs2 = new THREE.Sphere;
+        bs2.center.x = bs.center.x;
+        bs2.center.y = bs.center.z;
+        bs2.center.z = -bs.center.y;
+        bs2.radius = bs.radius;
+        var box = sphereToScreenRect(bs2, camera);
+        context.beginPath();
+        context.rect(box.min.x,box.min.y,box.max.x-box.min.x, box.max.y-box.min.y);
+        context.stroke();
+
+    }
+    */
 }

@@ -3,7 +3,7 @@ import {stringToFloatArray} from './transportTools.js'
 
 export default addJsonDataToScene;
 
-function addJsonDataToScene(scene, maxAssets, daysPerGroup, hiresLoresSphere) {
+function addJsonDataToScene(scene, maxAssets, daysPerGroup, hiresLoresSphere, sortedByRadius, loaded) {
     fetch("renderspecs/renderspecb64.json")
         .then((res) => {
             if (!res.ok) {
@@ -15,6 +15,13 @@ function addJsonDataToScene(scene, maxAssets, daysPerGroup, hiresLoresSphere) {
         .then(
             (json) => {
                     addAssets(scene, json, maxAssets, daysPerGroup, hiresLoresSphere);
+                    for( var i=0; i<hiresLoresSphere.length; i++ )
+                    {
+                        sortedByRadius[i] = {};
+                        sortedByRadius[i].index = i;
+                        sortedByRadius[i].screenArea = 0;
+                    }
+                    loaded.loaded = true;
             })
         .catch((error) =>
             console.error("Unable to fetch data:", error));
@@ -22,7 +29,7 @@ function addJsonDataToScene(scene, maxAssets, daysPerGroup, hiresLoresSphere) {
 
 // maxAssets is now a limit for detail, not overall count
 function addAssets(scene, assets, maxAssets, daysPerGroup, hiresLoresSphere) {
-    var size = 0.1;
+    var size = 1;
     var dayOfGroup = 0;
     var cubegeom = new THREE.BoxGeometry(1,1,1);
     const cubematerial = new THREE.MeshMatcapMaterial();
@@ -38,12 +45,7 @@ function addAssets(scene, assets, maxAssets, daysPerGroup, hiresLoresSphere) {
             {
                 var reduction = 0.1
                 // New group. New instanced mesh. Create, populate and add the current one to the scene
-                if (typeof hiresLoresSphere == 'undefined')
-                    console.log("Oh dear!");
                 hiresLoresSphere[grpNum] = hiresLoresSphereForGroup(grp, cubegeom, cubematerial, reduction);
-                var useHi = (grpNum % 5 == 0);
-                hiresLoresSphere[grpNum].hires.visible = useHi;
-                hiresLoresSphere[grpNum].lores.visible = !useHi;
                 scene.add(hiresLoresSphere[grpNum].hires);
                 scene.add(hiresLoresSphere[grpNum].lores);
 
@@ -82,7 +84,10 @@ function addAssets(scene, assets, maxAssets, daysPerGroup, hiresLoresSphere) {
     }
 
     // Create instanced mesh for the current (final) group
-    scene.add(instancedMeshForGroup(grp, cubegeom, cubematerial, false, reduction));
+    var reduction = 1
+    hiresLoresSphere[grpNum] = hiresLoresSphereForGroup(grp, cubegeom, cubematerial, reduction);
+    scene.add(hiresLoresSphere[grpNum].hires);
+    scene.add(hiresLoresSphere[grpNum].lores);
 
     console.log("Added instances: ", assets.length);
 }
