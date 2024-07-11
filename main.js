@@ -204,7 +204,7 @@ function juggleVisible(frameNum)
 {
     sortedByArea = sortedByScreenArea(camera, hiresLoresSphere, sortedByArea);
 
-    const numToShowHires = 30;
+    const numToShowHires = 50;
     const numPotentials = hiresLoresSphere.length;
     for( var i=0; i<sortedByArea.length; i++)
     {

@@ -5,50 +5,49 @@ export function sphereToScreenCircle(sphere, camera)
     var widthHalf = 0.5*window.innerWidth;
     var heightHalf = 0.5*window.innerHeight;
 
-    var vector = new THREE.Vector3(sphere.center.x, sphere.center.y, sphere.center.z);
-    var vectorRight =  rightOfPointOnScreen(vector, camera, sphere.radius);
+    var vectorRightBehind =  rightOfPointOnScreen(sphere.center, camera, sphere.radius);
 
-    vector.project(camera);
-    vector.x = ( vector.x * widthHalf ) + widthHalf;
-    vector.y = - ( vector.y * heightHalf ) + heightHalf;
+    vectorRightBehind.behind.project(camera);
+    vectorRightBehind.behind.x = ( vectorRightBehind.behind.x * widthHalf ) + widthHalf;
+    vectorRightBehind.behind.y = - ( vectorRightBehind.behind.y * heightHalf ) + heightHalf;
 
-    vectorRight.project(camera);
-    vectorRight.x = ( vectorRight.x * widthHalf ) + widthHalf;
-    vectorRight.y = - ( vectorRight.y * heightHalf ) + heightHalf;
+    vectorRightBehind.right.project(camera);
+    vectorRightBehind.right.x = ( vectorRightBehind.right.x * widthHalf ) + widthHalf;
+    vectorRightBehind.right.y = - ( vectorRightBehind.right.y * heightHalf ) + heightHalf;
 
-    var r= vectorRight.x - vector.x;
+    var r= vectorRightBehind.right.x - vectorRightBehind.behind.x;
 
     return {
-        x: vector.x,
-        y: vector.y,
+        x: vectorRightBehind.behind.x,
+        y: vectorRightBehind.behind.y,
         r: r < 0 ? 0 : r
     };
 }
 
 export function rightOfPointOnScreen(point, camera, radius3d) {
-    var cameraLocalRight = new THREE.Vector3(1, 0, 0);
+    var cameraLocalBehind = new THREE.Vector3(0, 0, -1);
+    cameraLocalBehind.multiplyScalar(radius3d);
+    var cameraWorldBehind = camera.localToWorld(cameraLocalBehind);
+    cameraWorldBehind.sub(camera.position);
+
+    var cameraLocalRight = new THREE.Vector3(1, 0, -1);
     cameraLocalRight.multiplyScalar(radius3d);
     var cameraWorldRight = camera.localToWorld(cameraLocalRight);
     cameraWorldRight.sub(camera.position);
 
-    var objectPosition = new THREE.Vector3(point.x, point.y, point.z);
-    objectPosition.add(cameraWorldRight);
-    return objectPosition;
+    cameraWorldBehind.add(point);
+    cameraWorldRight.add(point);
+    var result = {};
+    result.behind = cameraWorldBehind;
+    result.right = cameraWorldRight;
+    return result;
 }
 
 export function sphereToScreenRect(sphere, camera)
 {
     var xyr = sphereToScreenCircle(sphere, camera)
-    if( xyr.r === Infinity )
-    {
-        console.log("r is infinity");
-    }
     var min = new THREE.Vector2(xyr.x - xyr.r, xyr.y - xyr.r);
     var max = new THREE.Vector2(xyr.x + xyr.r, xyr.y + xyr.r);
-    if( max.x === Infinity || max.y === Infinity)
-    {
-        console.log("Max x or y is inifinity");
-    }
     var sphereBox = new THREE.Box2(min, max);
     var smin = new THREE.Vector2(5,5);
     var smax = new THREE.Vector2(window.innerWidth-5,window.innerHeight-5);
