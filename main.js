@@ -184,7 +184,7 @@ function moveCamera() {
     var zAxis = new THREE.Vector3(0,0,0);
     camera.matrixWorld.extractBasis(xAxis,yAxis,zAxis);
 
-    var moveForwardBack = dive * 10;
+    var moveForwardBack = dive * 25;
     camera.position.x += zAxis.x * moveForwardBack;
     camera.position.z += zAxis.z * moveForwardBack;
 }
